@@ -68,17 +68,22 @@
   background-color: #EEEFF0;
 }
 
-.words.line2 {
+.words.line1 {
   top: 15%;
-  text-align: center;
+ 
+}
+
+.words.line2 {
+  top: 30%;
+  
 }
 
 .words.line3 {
-  top: 30%;
+  top: 50%;
 }
 
 .words.line4 {
-  top: 60%;
+  top: 70%;
 }
 
 .open .flap {
@@ -100,7 +105,7 @@
 }
 
 .open .letter {
-  transform: translateY(-60px);
+  transform: translateY(-120px);
   transition: transform 0.4s 0.6s ease, z-index 0.6s;
   z-index: 2;
 }
